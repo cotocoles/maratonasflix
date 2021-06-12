@@ -1,0 +1,16 @@
+h1 {
+    color: orangered;
+}
+
+h1:hover {
+    color: palegreen;
+}
+
+a:visited {
+    color: plum;
+}
+
+input:focus {
+    border: 5px solid olivedrab;
+    height: 50px;
+}

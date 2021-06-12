@@ -1,0 +1,25 @@
+.pai {
+    width: 100vw;
+    height: 100px;
+    background-color: orange;
+}
+
+.filho {
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+    /* este comando acima feito em um liha só */
+    transition: all 2s cubic-bezier(0.4,-0.01, 0.05, 0.68);
+    
+
+}
+
+.pai:hover .filho {
+    transform: translatex(711px);
+    background-color:white;
+    
+}

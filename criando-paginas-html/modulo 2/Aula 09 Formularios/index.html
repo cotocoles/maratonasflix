@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09</title>
+</head>
+<body>
+    <form action="servidor.html" method="POST">
+        <fieldset>
+            <legend>Cadastro de Usuários</legend>
+
+            <p>
+                <label for="username">Nome</label>
+                <input type="text" id="username" name="username" required>
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </p>
+
+            <p>
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password">
+            </p>
+
+            <p>
+                Sexo:
+                <input type="radio" id="male" name="sex">
+                <label for="male">Masculino</label>
+
+                <input type="radio" id="Female" name="sex">
+                <label for="Female">Feminino</label>
+
+            </p>
+
+            <p>
+                <label for="age">Idade</label>
+                <input type="number" id="age" name="idade">
+            </p>
+
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+            </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
